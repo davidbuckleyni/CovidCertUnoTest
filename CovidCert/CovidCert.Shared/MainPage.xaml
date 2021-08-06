@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="CovidCert.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CovidCert"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+<StackPanel x:Name="LayoutRoot" Margin="10">
+		<TextBlock Text="Hello, world!" Margin="20" FontSize="30" />
+<Button Click="OnClick1">Test Button</Button>
+        <CalendarDatePicker x:Name="arrivalCalendarDatePicker"/>
+
+         <TextBlock x:Name="text1" Margin="5,8,0,0" />
+  <TextBlock x:Name="text2" Margin="5,8,0,0" />
+    <TextBlock x:Name="text3" Margin="5,8,0,0" />
+
+   </StackPanel>
+
+</Page>
